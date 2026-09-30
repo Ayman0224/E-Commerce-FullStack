@@ -46,7 +46,7 @@ function Products() {
   useEffect(() => {
     const getProducts = async () => {
       const response = await fetch(
-        "http://localhost:5000/api/products"
+        "https://e-commerce-fullstack5.onrender.com/api/products"
       );
 
       const data = await response.json();

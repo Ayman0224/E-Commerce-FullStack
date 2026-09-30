@@ -236,7 +236,7 @@ node server.js
 The backend will run on:
 
 ```text
-http://localhost:5000
+https://e-commerce-fullstack5.onrender.com
 ```
 
 ### Start the Frontend

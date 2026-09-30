@@ -18,7 +18,7 @@ function Checkout() {
     const token = localStorage.getItem("token");
 
     const sandboxResponse = await fetch(
-      "http://localhost:5000/api/payment/sandbox",
+      "https://e-commerce-fullstack5.onrender.com/api/payment/sandbox",
       {
         method: "POST",
       }
@@ -31,7 +31,7 @@ function Checkout() {
     }
 
     const response = await fetch(
-      "http://localhost:5000/api/payment/pay",
+      "https://e-commerce-fullstack5.onrender.com/api/payment/pay",
       {
         method: "POST",
         headers: {
