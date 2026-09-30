@@ -8,7 +8,7 @@ import {
 import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Products from "./pages/Products";
+import Products from "./pages/products";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 
